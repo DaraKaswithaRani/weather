@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://www.shutterstock.com/image-photo/black-rain-cloud-over-rural-260nw-2353013655.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(14, 163, 227);
+  padding: 50px;
+  border-radius: 15px;
+  width: 100vh;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+font-family: "Bungee", sans-serif;
+}
+
+.container h1{
+    font-family: "Monoton", sans-serif;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+}
+
+button { 
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} 
+
+#weatherResult {
+  margin-top: 20px;
+}
